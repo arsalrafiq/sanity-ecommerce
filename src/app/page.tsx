@@ -20,7 +20,7 @@ const Home = async () => {
             winningIndex={winningIndex}
           />
 
-          <section className='container mx-auto py-8'>
+          <section className='container mx-auto py-4'>
             <ProductGrid products={products} />
           </section>
         </div>
