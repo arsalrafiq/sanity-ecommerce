@@ -33,7 +33,7 @@ export default async function RootLayout({
                 />
                 <Script
                     src='https://cloud.umami.is/script.js'
-                    data-website-id='(YOUR UMAMI WEBSITE ID)'
+                    data-website-id='7a2bcf2d-6e8f-456c-b23a-5a9461aa184d'
                     strategy='beforeInteractive'
                 />
                 <main className="relative flex min-h-screen flex-col">
