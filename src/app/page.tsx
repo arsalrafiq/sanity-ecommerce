@@ -14,11 +14,11 @@ const Home = async () => {
 
     return (
         <div>
-          {/* <SalesCampaignBanner />
+          <SalesCampaignBanner />
           <WheelOfFortune
             products={randomProducts}
             winningIndex={winningIndex}
-          /> */}
+          />
 
           <section className='container mx-auto py-8'>
             <ProductGrid products={products} />

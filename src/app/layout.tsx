@@ -8,7 +8,7 @@ import HeaderCategorySelector from '@/components/layout/HeaderCategorySelector';
 import Cart from '@/components/cart/Cart';
 import Script from 'next/script';
 import { Suspense } from 'react';
-import AnalyticsTracker from '@/components/layout/AnalyticsTracker';
+// import AnalyticsTracker from '@/components/layout/AnalyticsTracker';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -31,17 +31,17 @@ export default async function RootLayout({
                     user={user}
                     categorySelector={<HeaderCategorySelector />}
                 />
-                <Script
+                {/* <Script
                     src='https://cloud.umami.is/script.js'
                     data-website-id='7a2bcf2d-6e8f-456c-b23a-5a9461aa184d'
                     strategy='beforeInteractive'
-                />
+                /> */}
                 <main className="relative flex min-h-screen flex-col">
-                    <Suspense>
+                    {/* <Suspense>
                         <AnalyticsTracker
                             user={user}
                         />
-                    </Suspense>
+                    </Suspense> */}
                     {children}
                     <Cart />
                     <SanityLive />
